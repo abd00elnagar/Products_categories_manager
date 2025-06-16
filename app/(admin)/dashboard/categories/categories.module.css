@@ -1,0 +1,108 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.addButton {
+  display: inline-block;
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.addButton:hover {
+  background-color: #0051a2;
+}
+
+.categoryList {
+  display: grid;
+  gap: 15px;
+}
+
+.emptyMessage {
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+
+.categoryCard {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoryName {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.deleteButton {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #cc0000;
+}
+
+.confirmationDialog {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  right: 20px;
+  z-index: 1000;
+}
+
+.confirmationDialog p {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.confirmationButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.confirmButton {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background-color: #cc0000;
+}
+
+.cancelButton {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  background-color: #e0e0e0;
+}
+ 
